@@ -2,6 +2,6 @@
 
 > npm install google-spreadsheet
 > 
-> npm install googleapis
+> > npm install googleapis
 > 
 > npm install google-auth-library

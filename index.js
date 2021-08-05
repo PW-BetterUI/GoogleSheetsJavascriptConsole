@@ -111,6 +111,11 @@ async function maintask(cl)
             if(updatedUnreadAnnouncementValues.toString().startsWith(","))
             {
                 updatedUnreadAnnouncementValues = updatedUnreadAnnouncementValues.replace(',', '');
+	    }
+		
+	    if(updatedUnreadAnnouncementValues.toString() == null || updatedUnreadAnnouncementValues.toString() == '')
+            {
+                updatedUnreadAnnouncementValues[0] = ["0"];
             }
 
             const updateAssignedAnnouncements = {
@@ -134,4 +139,4 @@ async function maintask(cl)
     });
 }
 
-setInterval(authorizeAccess, 15000);
+setInterval(authorizeAccess, 600000);

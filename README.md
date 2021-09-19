@@ -1,4 +1,4 @@
-# To run the project, remember ro run the following commands to install dependencies
+# To run the project, remember to run the following commands to install dependencies
 
 `npm install google-spreadsheet`
 
